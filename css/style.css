@@ -746,7 +746,8 @@ a, a:hover {
 .cover-v1 .heading {
   font-size: 5rem;
   font-weight: 900;
-  color: #fff;
+  color: #333333;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 @media (max-width: 991.98px) {
@@ -773,7 +774,7 @@ a, a:hover {
 
 .cover-v1 .subheading {
   font-size: 33px;
-  color: #fff;
+  color: #333333;
 }
 
 @media (max-width: 991.98px) {
@@ -1748,6 +1749,7 @@ figure.dotted-bg:before {
   font-weight: 900;
   font-family: "Raleway", sans-serif;
   color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .unslate_co--footer .footer-site-logo a span {
